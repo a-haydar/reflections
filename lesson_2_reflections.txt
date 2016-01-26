@@ -18,3 +18,9 @@ What are some situations when branches would be helpful in keeping your history 
 
 	Branches are useful when adding new features or testing new ideas. These changes will not affect main code
 	and will keep things organized. Branches can later be merged to include the new code in other branches
+
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams help us visualize the branch structures by showing the parent of each commit,
+	and therefore, the reachability of a commit.
+	

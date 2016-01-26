@@ -3,3 +3,7 @@ When would you want to use a remote repository rather than keeping all your work
 	when working with others
 	also as a backup
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Same to the idea of automatic commits vs manual, I need to control when I pull changes
+	as well as what changes to pull so that I can merge when I need where I need 

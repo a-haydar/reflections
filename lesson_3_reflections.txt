@@ -7,3 +7,14 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	Same to the idea of automatic commits vs manual, I need to control when I pull changes
 	as well as what changes to pull so that I can merge when I need where I need 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	forks are clones of peoples' repositories on github that are used to modify someone's code while
+	giving credit and keeping his/her code untouched
+
+	clones are copies of a repository without additional information attached and are normally used to clone
+	a remote repository to work on locally
+
+	branches are a way to group and label commits to logical units of work in order to keep work organized. 
+	 

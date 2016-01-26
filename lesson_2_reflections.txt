@@ -8,3 +8,8 @@ What value do you think it offers?
 	Working directory containes all files that are currently in the directory but may
 	not be tracked. Staging area, however, containes files that will be part of the next
 	commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Staging area can be used to pick from working directory and add only the files modfied
+	to produce a logical change to the code.

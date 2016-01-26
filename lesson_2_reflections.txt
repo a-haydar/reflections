@@ -28,4 +28,12 @@ What is the result of merging two branches together? Why do we represent it in t
 
 	A new commit is created that combines the changes in both branches. The new commit keeps information
 	about merged branches as parents and will be connected to both.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros:
+	  - automatic merge saves time and effort when changes do not interfer with each other
+	Cons:
+	  - automatic merge cannot work when changes interfere with each other. It maybe needed to look for other
+	    changes made by the auto-merger to be able to resolve conflicts manually.
 	

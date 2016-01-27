@@ -18,3 +18,9 @@ Describe the differences between forks, clones, and branches. When would you use
 
 	branches are a way to group and label commits to logical units of work in order to keep work organized. 
 	 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	the benefit is to allow for comparison  with current remote state during push and pull to allow detection
+	of conflicts that cannot be resolved by fast-forward merges. local copies of remote changes can be copied without being merged using git fetch
+
+	

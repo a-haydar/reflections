@@ -28,4 +28,6 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	Coming from svn, I think that using git has a good benefit of having the whole history locally> this makes it
 	easier to work and review work while offline. Github's pull request feature is nice to keep master clean and only merge when it is accepted. Previously, peole would have to agree before hand somewhere else before merging changes to master. Github makes this type of collaberation easy and trackable in the same place.
 	
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 	
+	Making changes in a separate branch keeps master production-ready and additions are only added when they are completely ready. That way, other people working on other things don't get affected by others' work-in-progress. The only down side to this is keeping local master up-to-date with remote and constantly merging the updates to master to other local branches.	
